@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1804EA3A21B11B1D009D3D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804EA3921B11B1D009D3D97 /* AppDelegate.swift */; };
-		1804EA3C21B11B1D009D3D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804EA3B21B11B1D009D3D97 /* ViewController.swift */; };
-		1804EA3F21B11B1D009D3D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804EA3D21B11B1D009D3D97 /* Main.storyboard */; };
-		1804EA4121B11B1E009D3D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1804EA4021B11B1E009D3D97 /* Assets.xcassets */; };
-		1804EA4421B11B1E009D3D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804EA4221B11B1E009D3D97 /* LaunchScreen.storyboard */; };
+		188000C221A2E2ED00330256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188000C121A2E2ED00330256 /* AppDelegate.swift */; };
+		188000C421A2E2ED00330256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188000C321A2E2ED00330256 /* ViewController.swift */; };
+		188000C721A2E2ED00330256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188000C521A2E2ED00330256 /* Main.storyboard */; };
+		188000C921A2E2EE00330256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188000C821A2E2EE00330256 /* Assets.xcassets */; };
+		188000CC21A2E2EE00330256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188000CA21A2E2EE00330256 /* LaunchScreen.storyboard */; };
+		188000D421A2E35F00330256 /* CustomerChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188000D321A2E35F00330256 /* CustomerChatCell.swift */; };
+		18905B0921B80FAB00C8BE29 /* DownloadWithProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18905B0821B80FAB00C8BE29 /* DownloadWithProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1804EA3621B11B1D009D3D97 /* DownloadingParreller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadingParreller.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1804EA3921B11B1D009D3D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1804EA3B21B11B1D009D3D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1804EA3E21B11B1D009D3D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1804EA4021B11B1E009D3D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1804EA4321B11B1E009D3D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1804EA4521B11B1E009D3D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188000BE21A2E2ED00330256 /* DownloadingPrgressAndChatTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadingPrgressAndChatTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188000C121A2E2ED00330256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		188000C321A2E2ED00330256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		188000C621A2E2ED00330256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188000C821A2E2EE00330256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188000CB21A2E2EE00330256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188000CD21A2E2EE00330256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188000D321A2E35F00330256 /* CustomerChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerChatCell.swift; sourceTree = "<group>"; };
+		18905B0821B80FAB00C8BE29 /* DownloadWithProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1804EA3321B11B1D009D3D97 /* Frameworks */ = {
+		188000BB21A2E2ED00330256 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1804EA2D21B11B1D009D3D97 = {
+		188000B521A2E2ED00330256 = {
 			isa = PBXGroup;
 			children = (
-				1804EA3821B11B1D009D3D97 /* DownloadingParreller */,
-				1804EA3721B11B1D009D3D97 /* Products */,
+				188000C021A2E2ED00330256 /* DownloadingPrgressAndChatTV */,
+				188000BF21A2E2ED00330256 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1804EA3721B11B1D009D3D97 /* Products */ = {
+		188000BF21A2E2ED00330256 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1804EA3621B11B1D009D3D97 /* DownloadingParreller.app */,
+				188000BE21A2E2ED00330256 /* DownloadingPrgressAndChatTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1804EA3821B11B1D009D3D97 /* DownloadingParreller */ = {
+		188000C021A2E2ED00330256 /* DownloadingPrgressAndChatTV */ = {
 			isa = PBXGroup;
 			children = (
-				1804EA3921B11B1D009D3D97 /* AppDelegate.swift */,
-				1804EA3B21B11B1D009D3D97 /* ViewController.swift */,
-				1804EA3D21B11B1D009D3D97 /* Main.storyboard */,
-				1804EA4021B11B1E009D3D97 /* Assets.xcassets */,
-				1804EA4221B11B1E009D3D97 /* LaunchScreen.storyboard */,
-				1804EA4521B11B1E009D3D97 /* Info.plist */,
+				188000C121A2E2ED00330256 /* AppDelegate.swift */,
+				188000C321A2E2ED00330256 /* ViewController.swift */,
+				188000D321A2E35F00330256 /* CustomerChatCell.swift */,
+				18905B0821B80FAB00C8BE29 /* DownloadWithProgress.swift */,
+				188000C521A2E2ED00330256 /* Main.storyboard */,
+				188000C821A2E2EE00330256 /* Assets.xcassets */,
+				188000CA21A2E2EE00330256 /* LaunchScreen.storyboard */,
+				188000CD21A2E2EE00330256 /* Info.plist */,
 			);
-			path = DownloadingParreller;
+			path = DownloadingPrgressAndChatTV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1804EA3521B11B1D009D3D97 /* DownloadingParreller */ = {
+		188000BD21A2E2ED00330256 /* DownloadingPrgressAndChatTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1804EA4821B11B1E009D3D97 /* Build configuration list for PBXNativeTarget "DownloadingParreller" */;
+			buildConfigurationList = 188000D021A2E2EE00330256 /* Build configuration list for PBXNativeTarget "DownloadingPrgressAndChatTV" */;
 			buildPhases = (
-				1804EA3221B11B1D009D3D97 /* Sources */,
-				1804EA3321B11B1D009D3D97 /* Frameworks */,
-				1804EA3421B11B1D009D3D97 /* Resources */,
+				188000BA21A2E2ED00330256 /* Sources */,
+				188000BB21A2E2ED00330256 /* Frameworks */,
+				188000BC21A2E2ED00330256 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DownloadingParreller;
-			productName = DownloadingParreller;
-			productReference = 1804EA3621B11B1D009D3D97 /* DownloadingParreller.app */;
+			name = DownloadingPrgressAndChatTV;
+			productName = TableViewChat;
+			productReference = 188000BE21A2E2ED00330256 /* DownloadingPrgressAndChatTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1804EA2E21B11B1D009D3D97 /* Project object */ = {
+		188000B621A2E2ED00330256 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "sculpsoft-mac";
 				TargetAttributes = {
-					1804EA3521B11B1D009D3D97 = {
+					188000BD21A2E2ED00330256 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 1804EA3121B11B1D009D3D97 /* Build configuration list for PBXProject "DownloadingParreller" */;
+			buildConfigurationList = 188000B921A2E2ED00330256 /* Build configuration list for PBXProject "DownloadingPrgressAndChatTV" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 1804EA2D21B11B1D009D3D97;
-			productRefGroup = 1804EA3721B11B1D009D3D97 /* Products */;
+			mainGroup = 188000B521A2E2ED00330256;
+			productRefGroup = 188000BF21A2E2ED00330256 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1804EA3521B11B1D009D3D97 /* DownloadingParreller */,
+				188000BD21A2E2ED00330256 /* DownloadingPrgressAndChatTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1804EA3421B11B1D009D3D97 /* Resources */ = {
+		188000BC21A2E2ED00330256 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1804EA4421B11B1E009D3D97 /* LaunchScreen.storyboard in Resources */,
-				1804EA4121B11B1E009D3D97 /* Assets.xcassets in Resources */,
-				1804EA3F21B11B1D009D3D97 /* Main.storyboard in Resources */,
+				188000CC21A2E2EE00330256 /* LaunchScreen.storyboard in Resources */,
+				188000C921A2E2EE00330256 /* Assets.xcassets in Resources */,
+				188000C721A2E2ED00330256 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1804EA3221B11B1D009D3D97 /* Sources */ = {
+		188000BA21A2E2ED00330256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1804EA3C21B11B1D009D3D97 /* ViewController.swift in Sources */,
-				1804EA3A21B11B1D009D3D97 /* AppDelegate.swift in Sources */,
+				188000C421A2E2ED00330256 /* ViewController.swift in Sources */,
+				188000D421A2E35F00330256 /* CustomerChatCell.swift in Sources */,
+				18905B0921B80FAB00C8BE29 /* DownloadWithProgress.swift in Sources */,
+				188000C221A2E2ED00330256 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1804EA3D21B11B1D009D3D97 /* Main.storyboard */ = {
+		188000C521A2E2ED00330256 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1804EA3E21B11B1D009D3D97 /* Base */,
+				188000C621A2E2ED00330256 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1804EA4221B11B1E009D3D97 /* LaunchScreen.storyboard */ = {
+		188000CA21A2E2EE00330256 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1804EA4321B11B1E009D3D97 /* Base */,
+				188000CB21A2E2EE00330256 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1804EA4621B11B1E009D3D97 /* Debug */ = {
+		188000CE21A2E2EE00330256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		1804EA4721B11B1E009D3D97 /* Release */ = {
+		188000CF21A2E2EE00330256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,36 +286,36 @@
 			};
 			name = Release;
 		};
-		1804EA4921B11B1E009D3D97 /* Debug */ = {
+		188000D121A2E2EE00330256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2CU65X6LJ;
-				INFOPLIST_FILE = DownloadingParreller/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DownloadingPrgressAndChatTV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ss.DownloadingParreller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ss.TableViewChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1804EA4A21B11B1E009D3D97 /* Release */ = {
+		188000D221A2E2EE00330256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2CU65X6LJ;
-				INFOPLIST_FILE = DownloadingParreller/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DownloadingPrgressAndChatTV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ss.DownloadingParreller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ss.TableViewChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1804EA3121B11B1D009D3D97 /* Build configuration list for PBXProject "DownloadingParreller" */ = {
+		188000B921A2E2ED00330256 /* Build configuration list for PBXProject "DownloadingPrgressAndChatTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1804EA4621B11B1E009D3D97 /* Debug */,
-				1804EA4721B11B1E009D3D97 /* Release */,
+				188000CE21A2E2EE00330256 /* Debug */,
+				188000CF21A2E2EE00330256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1804EA4821B11B1E009D3D97 /* Build configuration list for PBXNativeTarget "DownloadingParreller" */ = {
+		188000D021A2E2EE00330256 /* Build configuration list for PBXNativeTarget "DownloadingPrgressAndChatTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1804EA4921B11B1E009D3D97 /* Debug */,
-				1804EA4A21B11B1E009D3D97 /* Release */,
+				188000D121A2E2EE00330256 /* Debug */,
+				188000D221A2E2EE00330256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1804EA2E21B11B1D009D3D97 /* Project object */;
+	rootObject = 188000B621A2E2ED00330256 /* Project object */;
 }

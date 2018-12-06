@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DownloadingParreller.xcodeproj">
+      location = "self:/Users/sculpsoft-mac/Desktop/TableViewChat/DownloadingPrgressAndChatTV.xcodeproj">
    </FileRef>
 </Workspace>

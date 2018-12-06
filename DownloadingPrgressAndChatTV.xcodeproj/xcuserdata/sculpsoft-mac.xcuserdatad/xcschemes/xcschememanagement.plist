@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DownloadingParreller.xcscheme</key>
+		<key>DownloadingPrgressAndChatTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>TableViewChat.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>

@@ -1,16 +1,11 @@
-//
-//  AppDelegate.swift
-//  DownloadingParreller
-//
-//  Created by sculpsoft-mac on 30/11/18.
-//  Copyright © 2018 sculpsoft-mac. All rights reserved.
-//
+//Indrajit
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var isCallAvaialble = false
     var window: UIWindow?
 
 
@@ -31,6 +26,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        if isCallAvaialble{
+            isCallAvaialble = false
+            
+            makeCall()
+        }
+        
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
@@ -41,6 +42,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    
+    func callArvied(){
+        if !(UIApplication.shared.applicationState == .active){
+            isCallAvaialble = true
+        }else{
+                makeCall()
+        }
+        
+    }
+    
+    
+    func makeCall(){
+        
+    }
+    
 
 }
 
