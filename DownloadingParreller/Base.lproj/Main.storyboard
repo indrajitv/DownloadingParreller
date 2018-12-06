@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DownloadingParreller" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WnV-0Z-nW4">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DownloadingCell" rowHeight="113" id="KZd-RW-fLF" customClass="DownloadingCell" customModule="DownloadingParreller" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="113"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KZd-RW-fLF" id="OQE-Xm-z3g">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="112.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUl-yF-79m" userLabel="blue">
+                                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="50"/>
+                                                    <color key="backgroundColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="IuE-3j-gz3"/>
+                                                        <constraint firstAttribute="width" id="bhd-1L-sJZ"/>
+                                                    </constraints>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhd-NZ-LCS">
+                                                    <rect key="frame" x="0.0" y="50" width="375" height="40"/>
+                                                    <color key="backgroundColor" red="0.60660811896192901" green="1" blue="0.23296492186552542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="ghj-11-ose"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Download"/>
+                                                    <connections>
+                                                        <action selector="downloadingClicked:" destination="KZd-RW-fLF" eventType="touchUpInside" id="IEt-wU-y5w"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="hhd-NZ-LCS" secondAttribute="bottom" id="2sh-d5-3gf"/>
+                                                <constraint firstItem="LUl-yF-79m" firstAttribute="top" secondItem="OQE-Xm-z3g" secondAttribute="top" id="3Nb-ov-HIt"/>
+                                                <constraint firstItem="LUl-yF-79m" firstAttribute="leading" secondItem="OQE-Xm-z3g" secondAttribute="leading" id="G55-RG-Zi7"/>
+                                                <constraint firstItem="hhd-NZ-LCS" firstAttribute="top" secondItem="LUl-yF-79m" secondAttribute="bottom" id="jpF-Zv-zdn"/>
+                                                <constraint firstItem="hhd-NZ-LCS" firstAttribute="leading" secondItem="OQE-Xm-z3g" secondAttribute="leading" id="s9c-kO-Vui"/>
+                                                <constraint firstAttribute="trailing" secondItem="hhd-NZ-LCS" secondAttribute="trailing" id="sxj-4w-gPf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="downlaodButton" destination="hhd-NZ-LCS" id="laC-fK-Hih"/>
+                                            <outlet property="widthOfBlue" destination="bhd-1L-sJZ" id="GBp-zw-EnH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="XqZ-RZ-rBg"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="FwV-fi-uHG"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WnV-0Z-nW4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tMh-MN-9bS"/>
+                            <constraint firstItem="WnV-0Z-nW4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="v2G-I8-FVN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WnV-0Z-nW4" secondAttribute="bottom" id="vY8-A9-syv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WnV-0Z-nW4" secondAttribute="trailing" id="wNz-r5-Xsi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="WnV-0Z-nW4" id="bWY-7B-tAa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
